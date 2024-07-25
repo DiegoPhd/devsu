@@ -1,1 +1,4 @@
 env/
+allure_report/
+.vscode/
+__pycache__/
