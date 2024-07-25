@@ -16,6 +16,7 @@ from utils.constants import PASSWORD, TEN, USER
 
 
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+driver.set_window_size(1920, 1080)
 the_actor = AnActor.named("Diego").who_can(BrowseTheWeb.using(driver))
 
 scenarios("../features/buy_products.feature")
