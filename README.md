@@ -1,4 +1,4 @@
- # Requisitos Previos
+ ## Requisitos Previos
 
 1. Clonar el presente repositorio
 2. Abrir el repositorio en el IDE de preferencia (Recomiendo VSCode) en la carpeta `DEVSU`
@@ -13,9 +13,18 @@
     ```
 6. Instalar [Allure Report](https://allurereport.org/docs/install/)
 
-# Ejecución pruebas E2E Frontend
+## Ejecución pruebas E2E Frontend
 
-- Para ejecutar los tests `allure generate --clean --output allure_report; pytest -v saucedemo/tests --alluredir allure_report/`
-- Para visualizar el reporte: `allure serve allure_report`
+- Para ejecutar los tests:
+    ```
+    allure generate --clean --output allure_report; pytest -v saucedemo/tests --alluredir allure_report/
+    ```
+- Para construir el reporte:
+    ```
+    allure generate -c allure_report/ -o report; allure-combine report
+    ```
+- Para visualizar el reporte hay dos opciones:
+    - Abrir el archivo `report/complete.html` en el navegador de preferencia
+    - Generar servidor con el reporte `allure serve allure_report`
 
-# Ejecución E2E Backend
+## Ejecución E2E Backend
