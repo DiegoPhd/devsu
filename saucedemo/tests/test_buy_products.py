@@ -15,7 +15,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from ui.page_home import LOGIN_BUTTON
-from utils.constants import ORDER_COMPLETE, TEN
+from utils.constants import ORDER_COMPLETE, SAUCE_LABS_PAGE, TEN
 from ui.page_checkout import (
     COMPLETE_ORDER_TEXT,
 )
@@ -32,7 +32,7 @@ scenarios("../features/buy_products.feature")
 
 @given("a user visits saucedemo.com")
 def a_user_visits_saucedemo() -> None:
-    the_actor.attempts_to(Open.browser_on("https://www.saucedemo.com/"))
+    the_actor.attempts_to(Open.browser_on(SAUCE_LABS_PAGE))
     the_actor.attempts_to(Wait(TEN).second_for(LOGIN_BUTTON))
 
 
