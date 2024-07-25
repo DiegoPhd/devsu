@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"D:\Trabajo\Devsu\devsu\saucedemo\features\buy_products.feature: Buy products","5701","test_buy_products","saucedemo.tests","Thu Jul 25 08:39:34 COT 2024","passed","Thu Jul 25 08:39:39 COT 2024","","test_buy_products","",""
