@@ -13,11 +13,11 @@
     ```
 6. Instalar [Allure Report](https://allurereport.org/docs/install/)
 
-## Ejecución pruebas E2E Frontend
+## Ejecución pruebas E2E back y front
 
 - Para ejecutar los tests:
     ```
-    allure generate --clean --output allure_report; pytest -v saucedemo/tests --alluredir allure_report/
+    allure generate --clean --output allure_report; pytest --alluredir allure_report/
     ```
 - Para construir el reporte:
     ```
@@ -26,5 +26,3 @@
 - Para visualizar el reporte hay dos opciones:
     - Abrir el archivo `report/complete.html` en el navegador de preferencia
     - Generar servidor con el reporte `allure serve allure_report`
-
-## Ejecución E2E Backend
