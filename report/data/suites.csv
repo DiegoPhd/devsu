@@ -1,3 +1,3 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"D:\Trabajo\Devsu\devsu\petstore\features\user.feature: Create, update and delete a user","1106","test_create_update_and_delete_a_user","petstore.tests","Thu Jul 25 22:36:13 COT 2024","passed","Thu Jul 25 22:36:14 COT 2024","","test_user","",""
-"D:\Trabajo\Devsu\devsu\saucedemo\features\buy_products.feature: Buy products","5750","test_buy_products","saucedemo.tests","Thu Jul 25 22:36:14 COT 2024","passed","Thu Jul 25 22:36:20 COT 2024","","test_buy_products","",""
+"D:\Trabajo\Devsu\devsu\petstore\features\user.feature: Create, update and delete a user","1300","test_create_update_and_delete_a_user","petstore.tests","Thu Jul 25 23:01:50 COT 2024","passed","Thu Jul 25 23:01:51 COT 2024","","test_user","",""
+"D:\Trabajo\Devsu\devsu\saucedemo\features\buy_products.feature: Buy products","6074","test_buy_products","saucedemo.tests","Thu Jul 25 23:01:51 COT 2024","passed","Thu Jul 25 23:01:57 COT 2024","","test_buy_products","",""

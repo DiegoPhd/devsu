@@ -1,8 +1,0 @@
----------------------
-{'id': 1047461098, 'username': 'patriciawright', 'firstName': 'Brandon', 'lastName': 'Rivera', 'email': 'grace61@example.com', 'password': 'Fo3Zz2BT&$', 'phone': '7998952480', 'userStatus': 0}
----------------------
-id=0 username='patriciawright' firstName='Brandon' lastName='Rivera' email='grace61@example.com' password='Fo3Zz2BT&$' phone='7998952480' userStatus=0
----------------------
-{'id': 1047461098, 'username': 'patriciawright', 'firstName': 'Kelly', 'lastName': 'Rivera', 'email': 'rwilson@example.org', 'password': 'Fo3Zz2BT&$', 'phone': '7998952480', 'userStatus': 0}
----------------------
-id=1047461098 username='patriciawright' firstName='Kelly' lastName='Rivera' email='rwilson@example.org' password='Fo3Zz2BT&$' phone='7998952480' userStatus=0

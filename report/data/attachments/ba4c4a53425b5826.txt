@@ -1,0 +1,8 @@
+---------------------
+{'id': 1047461312, 'username': 'fredwallace', 'firstName': 'Tammy', 'lastName': 'Bennett', 'email': 'tiffanystewart@example.net', 'password': '6tDZLwmI^L', 'phone': '001-460-326-9837x2268', 'userStatus': 0}
+---------------------
+id=0 username='fredwallace' firstName='Tammy' lastName='Bennett' email='tiffanystewart@example.net' password='6tDZLwmI^L' phone='001-460-326-9837x2268' userStatus=0
+---------------------
+{'id': 1047461312, 'username': 'fredwallace', 'firstName': 'Ryan', 'lastName': 'Bennett', 'email': 'kristiewalton@example.org', 'password': '6tDZLwmI^L', 'phone': '001-460-326-9837x2268', 'userStatus': 0}
+---------------------
+id=1047461312 username='fredwallace' firstName='Ryan' lastName='Bennett' email='kristiewalton@example.org' password='6tDZLwmI^L' phone='001-460-326-9837x2268' userStatus=0

@@ -5,7 +5,7 @@
 4. Crear y activar un entorno virtual:
     ```
     python -m venv env
-    env\Scripts\Actvivate.ps1
+    env\Scripts\Activate.ps1
     ```
 5. Instalar dependencias
     ```
@@ -26,3 +26,6 @@
 - Para visualizar el reporte hay dos opciones:
     - Abrir el archivo `report/complete.html` en el navegador de preferencia
     - Generar servidor con el reporte `allure serve allure_report`
+
+## Video
+Se adjunta además un video en donde se podrá observar la configuración anterior y la ejecución de los tests.
