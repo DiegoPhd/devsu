@@ -1,10 +1,10 @@
 from pydantic import BaseModel
 
 
-class CreateUser(BaseModel):
+class CreateUserModel(BaseModel):
     id: int = 0
     username: str
-    firtsName: str
+    firstName: str
     lastName: str
     email: str
     password: str
@@ -12,4 +12,4 @@ class CreateUser(BaseModel):
     userStatus: int = 0
 
 
-class UpdateUser(CreateUser): ...
+class UpdateUserModel(CreateUserModel): ...

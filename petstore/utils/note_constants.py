@@ -1,1 +1,2 @@
-USERNAME = "username"
+USER = "user"
+ID = "id"
