@@ -7,4 +7,4 @@ webdriver-manager==4.0.1
 pytest-bdd==7.2.0
 Faker==26.0.0
 allure-combine==1.0.11
-screenpy[selenium,allure]
+screenpy[selenium,allure,requests]
