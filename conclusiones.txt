@@ -1,4 +1,4 @@
-Con la realización de los presentes ejericios reforcé los conocimientos que tengo sobre la automatización de pruebas.
+Con la realización de los presentes ejercios reforcé los conocimientos que tengo sobre la automatización de pruebas.
 
 Fue desafiante al principio la configuración del proyecto y la lectura de documentación de herramientas como pytestbdd y allure
 Sin embargo, a medida que iba profundizando, iba entendiendo cada vez más el proceso.
