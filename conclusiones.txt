@@ -1,0 +1,20 @@
+Con la realización de los presentes ejericios reforcé los conocimientos que tengo sobre la automatización de pruebas.
+
+Fue desafiante al principio la configuración del proyecto y la lectura de documentación de herramientas como pytestbdd y allure
+Sin embargo, a medida que iba profundizando, iba entendiendo cada vez más el proceso.
+
+En el presente repositorio me hubiera gustado mejorar las buenas prácticas de codificación como el tipado y la importación 
+de librerías propuestas por Google y también esperas dentro del código, sin embargo, por tiempo no fue posible pulir el proyecto.
+También se hubiera podido agregar la ejecución de tests en paralelo para una mejor eficiencia en la ejecución.
+
+Como comentario general agregué el uso de Fixtures para generar la inicialización del reporte, configurar el usuario
+y para inicializar el webdriver con su respectiva configuración, esto permite ver un código más limpio en los step definitions.
+
+En cuanto al test del front, algo curioso es que al inicio cuando definía el driver dentro de los steps definitions,
+el test tardaba alrededor de 6 segundos, sin embargo cuando puse este paso en los fixtures los tiempos se aumentaron a 20 segundos
+por demoras al cerrar el navegador.
+Propuse que en vez de cerrar el navegador, se cerrara la ventana en donde se estaba ejecutando el test y con esto, finalmente,
+se logró que la ejecución del test tomara 10 segundos.
+De seguro estos tiempos también mejoran con una máquina con más recursos y ejecutando el test en modo headless
+
+Estás son las apreciaciones que tengo sobre el ejercicio. Gracias!
